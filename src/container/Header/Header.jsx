@@ -13,9 +13,8 @@ const Header = () => (
       <h1 className='app__header-h1'>The Key to Fine Dinning</h1>
       
       <p className='p__opensans' style={{nargin: '2rem 0'}}>
-        Grecht Restaurant is the best and modern Restaurant
-        and have won multiple proven award across the globe,
-        different categories of all type of foods and drinks.
+      Gericht is the best plave to have food experience with
+      a suitable drinks for all type of foods.
       </p>
       <button type='Button' className='custom__button'
       style={{marginTop: '10px'}}> Explore Menu</button>
@@ -23,7 +22,7 @@ const Header = () => (
     </div>
 
     <div className='app__wrapper_img'>
-      <img src={images.welcome} alt="header img" />
+      <img src={images.welcome} alt="header img" loading='lazy' />
     </div>
   </div>
 );
