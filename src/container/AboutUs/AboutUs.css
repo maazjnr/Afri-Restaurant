@@ -85,4 +85,8 @@
     color: var(--color-grey);
 }
     
+.app__aboutus-content__knife img{
+    height: 800px;
+}
+
 }
