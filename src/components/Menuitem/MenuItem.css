@@ -1,0 +1,11 @@
+.app__menuItem {
+    width: 100%;
+    margin: qrem 0;
+    
+}
+
+.app__menuItem-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
