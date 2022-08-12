@@ -25,6 +25,7 @@ const Header = () => (
       <img src={images.welcome} alt="header img" loading='lazy' />
     </div>
   </div>
+  
 );
 
 export default Header;
