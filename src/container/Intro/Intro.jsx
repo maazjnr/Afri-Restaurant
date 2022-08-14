@@ -40,7 +40,7 @@ const Intro = () => {
     </div>
 
   </div>
-  )
+  );
 
 };
 
