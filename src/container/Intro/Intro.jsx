@@ -6,22 +6,15 @@ import './Intro.css';
 
 const Intro = () => {
 
-  const [playVideo, setPlayVideo] = useState(false);
-  const handleVideo = () => {
-    setPlayVideo((prevPlayVideo) => !prevPlayVideo);
-
-    if(playVideo) {
-      vidRef.current.pause();
-    } else{
-      vidRef.current.play();
-    }
-  }
-
-  const vidRef = useRef()
 
   return(
     <div className='app__video'>
-    <video src={meal} type='video/mp4'
+      <video src={meal} width="320" height="240"
+      type="video/mp4" controls>
+
+</video>
+
+    {/* <video src={meal} type='video/mp4'
     ref={vidRef}
     loop
     controls={false}
@@ -37,7 +30,7 @@ const Intro = () => {
         ) : <BsFillPlayFill color='#fff' fontSize={30} />}
 
       </div>
-    </div>
+    </div> */}
 
   </div>
   );
