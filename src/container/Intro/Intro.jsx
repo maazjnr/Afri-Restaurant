@@ -1,40 +1,20 @@
-import React, { useRef, useState } from 'react';
-import {BsFillPlayFill, BsPauseFill} from 'react-icons/bs';
-import {meal} from '../../constants';
+import React, { useRef, useState } from "react";
+import { meal } from "../../constants";
 
-import './Intro.css';
+import "./Intro.css";
 
 const Intro = () => {
-
-
-  return(
-    <div className='app__video'>
-      <video src={meal} width="320" height="240"
-      type="video/mp4" controls>
-
-</video>
-
-    {/* <video src={meal} type='video/mp4'
-    ref={vidRef}
-    loop
-    controls={false}
-    muted
-    />
-
-    <div className='app__video-overlay flex__center'>
-      <div className='app__video-overlay_circle flex__center'
-      onClick={handleVideo}>
-
-        {playVideo ? (
-          <BsPauseFill color='#fff' fontSize={30} />
-        ) : <BsFillPlayFill color='#fff' fontSize={30} />}
-
-      </div>
-    </div> */}
-
-  </div>
+  return (
+    <div className="app__video">
+      <video
+        src={meal}
+        width="320"
+        height="240"
+        type="video/mp4"
+        controls
+      ></video>
+    </div>
   );
-
 };
 
 export default Intro;
