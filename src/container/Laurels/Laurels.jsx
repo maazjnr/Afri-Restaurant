@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import './Laurels.css';
 
 const Laurels = () => (
@@ -8,4 +9,4 @@ const Laurels = () => (
   </div>
 );
 
-export default Laurels;
+export default Laurels
