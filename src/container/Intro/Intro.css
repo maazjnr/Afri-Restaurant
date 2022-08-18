@@ -1,6 +1,6 @@
 .app__video {
     height: 100vh;
-    width: 100%;
+    position: relative;
 }
 
 .app__video video {
@@ -10,8 +10,9 @@
 }
 
 .app__video-overlay {
-    inset: 100;
-    background-color: rgba(0, 0, 1, 0.677);
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
 }
 
 .app__video-overlay_circle {
@@ -20,6 +21,4 @@
     border-radius: 50%;
     border: 1px solid var(--color-golden);
     cursor: pointer;
-    position: absolute;
-    top: 700%;
 }
